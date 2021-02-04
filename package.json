@@ -1,0 +1,27 @@
+{
+  "name": "intro-node-api",
+  "version": "1.0.0",
+  "description": "first efforts with node APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamniama/intro-node-api.git"
+  },
+  "author": "JC North/IAMNIAMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamniama/intro-node-api/issues"
+  },
+  "homepage": "https://github.com/iamniama/intro-node-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "method-override": "^3.0.0"
+  }
+}

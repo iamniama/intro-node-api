@@ -1,0 +1,14 @@
+<ul class="list-group">
+<%data.forEach(function(item, index){ %>
+ 
+        <li class="list-group-item">
+            <% if(item.Poster.length > 5) { %>
+            <img src="<%=item.Poster %>" class="img-thumbnail" title="<%=item.Title%>"/>
+        <%} else {%>
+                <p class="card-text">(NO IMAGE FOR POSTER)</p>
+            <%}%>
+            <p class="lead"><a href="/omdb/title/<%=item.Title%>"> <%=item.Title%></a>, <%=item.Year%></p>
+        </li>
+
+<% }) %>
+</ul>
